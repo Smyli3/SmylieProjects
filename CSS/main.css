@@ -31,8 +31,9 @@ body{
       font-family: 'Franklin Gothic Medium';
       padding: 10px;
     }
-  .text{
-    color: white
+
+  a[href*="https://www.youtube.com/channel/UCGL0s7Knut60pVlNwB0Rz9g"]{
+    color : black;
   }
   
     .box1{
