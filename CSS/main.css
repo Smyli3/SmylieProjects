@@ -67,3 +67,11 @@
     width: auto;
     size: 50px;
     }
+    p{
+    background-color:black ;
+    color: darkgreen;
+    font-size: 15px;
+    line-height: 20px;
+    width: auto;
+    text-align: center;
+    }
