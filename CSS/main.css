@@ -1,14 +1,16 @@
 
-body{
-    background: rgb(58,58,58);
-    color: white;
+.background{
+    background: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
   }
   header{
     background-color: black;
-    padding: 20px
+    padding: 0px;
+    text-align: center;
+    line-height: 10px;
+    color: rgba(220, 20, 60, 0.644);
   }
   section{
     background: white;
@@ -19,10 +21,17 @@ body{
   }
   ul{
     list-style-type: none;
-  }
+    word-spacing: 30px;
+    line-height: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    border: 1px solid darkgreen;
+    }
   li{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 5px;
+    background-color: black;
   }
     .body-text{
       background-color: orange;
@@ -36,8 +45,25 @@ body{
     color : black;
   }
   
-    .box1{
-      background-color: green;
-      height: 30px;
-      width: 40px;
+
+  .about-me{
+    background-color:black ;
+    color: darkgreen;
+    font-size: 15px;
+    line-height: 20px;
+    width: auto;
+    text-align: center;
+  }
+
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  a[href*="../index.html"], [href*="about.html"],[href*="blog.html"], [href*="projects.html"]{
+    color : darkgreen;
+  }
+  hr{
+    color:darkgreen noshade;
+    width: auto;
+    size: 50px;
     }
