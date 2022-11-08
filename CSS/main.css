@@ -25,13 +25,15 @@ body{
     margin-right: 20px;
   }
     .body-text{
-      background-color: yellow;
-      color: blueviolet;
+      background-color: orange;
+      color: purple;
       font-size: 20px;
       font-family: 'Franklin Gothic Medium';
       padding: 10px;
     }
-  
+  .text{
+    color: white
+  }
   
     .box1{
       background-color: green;
