@@ -1,77 +1,157 @@
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
 
-.background{
-    background: black;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  header{
-    background-color: black;
-    padding: 0px;
-    text-align: center;
-    line-height: 10px;
-    color: rgba(220, 20, 60, 0.644);
-  }
-  section{
-    background: white;
-    color: grey;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-  }
-  ul{
-    list-style-type: none;
-    word-spacing: 30px;
-    line-height: 5px;
-    padding: 10px;
-    text-align: center;
-    background-color: black;
-    border: 1px solid darkgreen;
-    }
-  li{
-    display: inline-block;
-    margin-right: 5px;
-    background-color: black;
-  }
-    .body-text{
-      background-color: orange;
-      color: purple;
-      font-size: 20px;
-      font-family: 'Franklin Gothic Medium';
-      padding: 10px;
-    }
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
 
-  a[href*="https://www.youtube.com/channel/UCGL0s7Knut60pVlNwB0Rz9g"]{
-    color : darkgreen;
-  }
-  
+/* Header styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #333;
+  margin: 2px 0;
+}
 
-  .about-me{
-    background-color:black ;
-    color: darkgreen;
-    font-size: 15px;
-    line-height: 20px;
-    width: auto;
-    text-align: center;
-  }
+/* Style unclicked links */
+a {
+  color: #b8b8b8;
+  text-decoration: none;
+}
 
-  h1{
-    font-size: 50px;
-    text-align: center;
-  }
-  a[href*="../index.html"], [href*="about.html"],[href*="blog.html"], [href*="projects.html"]{
-    color : darkgreen;
-  }
-  hr{
-    color:darkgreen noshade;
-    width: auto;
-    size: 50px;
-    }
-    p{
-    background-color:black ;
-    color: darkgreen;
-    font-size: 15px;
-    line-height: 20px;
-    width: auto;
-    text-align: center;
-    }
+/* Style clicked links */
+a:visited {
+  color: #b8b8b8;
+  text-decoration: none;
+}
+
+/* Style hovered links */
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+header h1 {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Main styles */
+.intro {
+	background-color: #333;
+	color: #fff;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.blog-post {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.blog-post h3 {
+	margin-top: 0;
+}
+
+.blog-post p {
+	margin: 0;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #222;
+		color: #fff;
+	}
+
+	header {
+		background-color: #333;
+		color: #fff;
+	}
+
+	header a {
+		color: #fff;
+	}
+
+	.container {
+		color: #fff;
+	}
+
+	.intro {
+		background-color: #333;
+		border-color: #fff;
+		color: #fff;
+	}
+
+	.blog-post {
+		background-color: #444;
+		border-color: #fff;
+		color: #fff;
+	}
+
+	.blog-post a {
+		color: #fff;
+	}
+
+	footer {
+		background-color: #333;
+		color: #fff;
+	}
+}
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+	header h1,
+	nav ul {
+		float: none;
+	}
+
+	nav li {
+		display: block;
+		margin: 10px 0;
+		text-align: center;
+	}
+}
