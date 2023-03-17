@@ -3,6 +3,15 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	width: 100vw;
+	height: 100vw;
+	margin:auto;
+}
+.dropdown{
+	font-size: 25px;
+}
+p{
+text-align: center;
 }
 
 .container {
@@ -15,7 +24,7 @@ body {
 header {
 	background-color: #333;
 	color: #fff;
-	padding: 20px 0;
+	padding: 50px 0;
 }
 hr {
   border: 0;
@@ -48,6 +57,10 @@ header h1 {
 	padding: 0;
 	float: left;
 }
+h2{
+	margin: 2px;
+	padding: 4px;
+}
 
 nav ul {
 	list-style: none;
@@ -76,16 +89,20 @@ nav a {
 
 .blog-post {
 	border: 1px solid #ccc;
-	padding: 20px;
+	padding: 10px;
 	margin-bottom: 30px;
+	margin-top: 0px;
+	text-align: center;
 }
 
-.blog-post h3 {
+.blog-post h2 {
 	margin-top: 0;
+	font-size: 50px;
 }
 
 .blog-post p {
 	margin: 0;
+	color: #ccc
 }
 
 /* Dark mode styles */
