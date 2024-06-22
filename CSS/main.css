@@ -6,6 +6,7 @@ body {
 	width: 100vw;
 	height: 100vw;
 	margin:auto;
+	color-scheme: light dark;
 }
 .dropdown{
 	font-size: 25px;
